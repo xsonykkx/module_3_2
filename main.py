@@ -1,5 +1,5 @@
 variants1 = ('.uk')
-variants2 = ('.ru','.net','.com')
+variants2 = ('.ru','.net','.com', '@')
 
 def send_email(message, recipient, *, sender = "university.help@gmail.com"):
     if '@' in recipient and sender:
